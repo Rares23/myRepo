@@ -1,11 +1,17 @@
 body
 {
 	font-family: Helvetica, Arial, sans-serif;
+	font-size:16;
+	line-height: 22px;
 }
 div.wrapper
 {
 	width:960px;
 	margin:10px auto;
+}
+hr
+{
+	border-color: #086fa1;
 }
 /* Header*/
 
@@ -51,6 +57,22 @@ div.wrapper article
 	margin-right:18px;
 	text-align:justify;
 }
+div.wrapper article h1
+{
+	background-color: #63ADD0;
+	padding:5px 10px;
+	border-radius: 3px 3px 0px 0px;
+	color: #235D79;
+
+}
+div.wrapper article p:hover
+{
+
+	heigth:40px;
+	transition: heigth .5s;
+	-webkit-transition: height .5s;
+}
+
 /* Footer*/
 footer
 {
