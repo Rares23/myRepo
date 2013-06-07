@@ -1,0 +1,29 @@
+
+div.wrapper
+{
+	width:960px;
+	margin:10px auto;
+}
+/* Header*/
+
+div.wrapper header
+{
+	text-align:center;
+}
+/* Content*/
+
+div.wrapper div.content
+{
+	padding:20px;
+}
+div.wrapper article
+{
+	width:440px;
+	display:inline-block;
+	margin-right:18px;
+}
+/* Footer*/
+footer
+{
+	text-align:center;
+}
