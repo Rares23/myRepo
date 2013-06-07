@@ -13,21 +13,29 @@ div.wrapper header
 {
 	text-align:center;
 }
+div.wrapper header nav ul
+{
+	padding:0px;
+	margin:0px;
+}
 div.wrapper header nav ul li
 {
 	display: inline-block;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 div.wrapper header nav ul li a
 {
 	text-decoration: none;
-	color:#ffe473;
-	background-color: #bfa430;
+	color:#63add0;
+	text-shadow:1px 1px 2px black;
+	background-color: #086fa1;
 	padding:10px 20px;
 	border-radius: 3px;
 }
 div.wrapper header nav ul li a:hover
 {
-	background-color: #a67e00;
+	background-color: #034769;
 }
 
 /* Content*/
