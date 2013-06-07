@@ -13,6 +13,23 @@ div.wrapper header
 {
 	text-align:center;
 }
+div.wrapper header nav ul li
+{
+	display: inline-block;
+}
+div.wrapper header nav ul li a
+{
+	text-decoration: none;
+	color:#ffe473;
+	background-color: #bfa430;
+	padding:10px 20px;
+	border-radius: 3px;
+}
+div.wrapper header nav ul li a:hover
+{
+	background-color: #a67e00;
+}
+
 /* Content*/
 
 div.wrapper div.content
