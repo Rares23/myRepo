@@ -1,4 +1,7 @@
-
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+}
 div.wrapper
 {
 	width:960px;
@@ -21,6 +24,7 @@ div.wrapper article
 	width:440px;
 	display:inline-block;
 	margin-right:18px;
+	text-align:justify;
 }
 /* Footer*/
 footer
