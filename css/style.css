@@ -1,4 +1,28 @@
+
 .hero-unit
 {
 	background-image: url("../imgs/parkour.png");
+}
+
+.navbar-inner {
+background: #dbc3a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #dbc3a1 0%, #d6c2a9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dbc3a1), color-stop(100%,#d6c2a9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #dbc3a1 0%,#d6c2a9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #dbc3a1 0%,#d6c2a9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #dbc3a1 0%,#d6c2a9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #dbc3a1 0%,#d6c2a9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbc3a1', endColorstr='#d6c2a9',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar .nav .active > a
+{
+	background: #dbc3a1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dbc3a1 0%, #d6c2a9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dbc3a1), color-stop(100%,#d6c2a9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dbc3a1 0%,#d6c2a9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dbc3a1 0%,#d6c2a9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dbc3a1 0%,#d6c2a9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dbc3a1 0%,#d6c2a9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbc3a1', endColorstr='#d6c2a9',GradientType=0 ); /* IE6-9 */
 }
